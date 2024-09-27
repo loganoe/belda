@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document by TheRealQueso (DOWNLOAD hack.exe)</title  >
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<body>
+    <canvas height = "900" width="1300"id="rickastley"  >
+        canvas no workey  
+    </canvas  >
+    <script  >
+        var canvas = document.getElementById('rickastley'),  
+context = canvas.getContext('2d');  
+
+make_base();  
+ var x = 0;
+ var y = 0;
+function make_base()  
+{
+    const 
+
+  }  
+function makerealbase() {
+    base_image = new Image();  
+  base_image.src = 'suchmega-removebg-preview.png';
+    
+  base_image.onload = function(){  
+    context.drawImage(base_image, x, y);  
+}
+
+$("body").keypress(function(event){
+  switch(String.fromCharCode(event.which)) {
+    case "d": 
+    
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        x +=5;
+        make_base();
+        break
+    case "a": 
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        
+        x -= 5;
+        make_base();
+        break;
+
+  } 
+});
+
+</script>
+</body>
+<style>
+    body {
+        overflow: hidden;
+    }
+</style>
+    
+</html>
